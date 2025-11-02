@@ -1,0 +1,65 @@
+.offer-code-section {
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #14b8a6 0%, #0d9488 100%);
+  color: white;
+}
+
+.offer-code-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.offer-code-container h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.offer-code-input-group {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.offer-code-input {
+  flex: 1;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.offer-code-button {
+  padding: 14px 32px;
+  background: #1e293b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.offer-code-button:hover {
+  background: #334155;
+}
+
+.offer-code-message {
+  margin-top: 12px;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .offer-code-input-group {
+    flex-direction: column;
+  }
+
+  .offer-code-button {
+    width: 100%;
+  }
+}
+

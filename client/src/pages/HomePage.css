@@ -1,0 +1,18 @@
+.homepage {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.loading-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.loading {
+  font-size: 1.5rem;
+  color: #64748b;
+}
+
